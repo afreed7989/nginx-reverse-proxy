@@ -3,11 +3,11 @@ services:
     app1:
         build: ./mobile
         ports:
-            - "5005:80"
+            - "5001:80"
     app2:
         build: ./bank
         ports:
-            - "5006:80"
+            - "5001:80"
     nginx:
         build: ./nginx
         ports:
