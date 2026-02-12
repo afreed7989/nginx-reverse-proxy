@@ -7,7 +7,7 @@ services:
     app2:
         build: ./bank
         ports:
-            - "5002:80"
+            - "5006:80"
     nginx:
         build: ./nginx
         ports:
